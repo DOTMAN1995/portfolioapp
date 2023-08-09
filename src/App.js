@@ -5,7 +5,7 @@ import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
-import footer from "./Components/footer";
+
 
 
 
@@ -26,7 +26,6 @@ function App() {
     <Education/>
     <Experience/>
     <Skills/>
-    <footer/>
    </div>
 
   );

@@ -25,7 +25,7 @@ console.log(details);
     emailjs.sendForm('service_jzdoelk', 'template_n0y7vbo', form.current, 'UkQLO5R4DqtxyQGNz')
       .then((result) => {
           console.log(result.text);
-          if (result.text.toLocaleLowerCase() =='ok') {
+          if (result.text.toLocaleLowerCase() ==='ok') {
             Swal.fire('Success', 'Record submitted successfully', 'success');
           }
       }, (error) => {
