@@ -12,7 +12,7 @@ const Experience = () => {
           <div class="card-body">
             <h4 class="card-title">Portfolio App</h4>
             <p class="card-text">About your project.</p>
-            <a href="#" class="card-link">Project link</a>
+            {/* <a href="#" class="card-link">Project link</a> */}
             {/* <a href="#" class="card-link">Another link</a> */}
           </div>
         </div>
