@@ -1,11 +1,14 @@
 
 
 const Education = () => {
+  style ={
+    color: '#00ddff'
+  }
   return (
     <section className="education py-5" id="education">
         <div className="container-fluid">
         <div className="row">
-        <h1 className="mb-5" style={{ color: "#00ddff" }}>
+        <h1 className="mb-5" style={style}>
               {" "}
               &nbsp;&lt;  Education Details. /&gt;;
         </h1>
